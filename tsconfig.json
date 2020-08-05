@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "lib": [
+        "esnext"
+      ],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "noUnusedLocals": true,
+      "pretty": true,
+      "removeComments": true,
+      "sourceMap": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "target": "es2016",
+      "allowJs": true,
+      "outDir": "build",
+      "baseUrl": ".",
+      "skipLibCheck": true
+  },
+  "include": [
+      "src/**/*",
+      "test/**/*"
+  ]
+}

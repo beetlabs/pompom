@@ -1,0 +1,43 @@
+{
+  "name": "pompom",
+  "version": "0.1.0",
+  "description": "Your terminal-based pomodoro cheerleader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beetlabs/pompom.git"
+  },
+  "keywords": [
+    "pomodoro",
+    "terminal"
+  ],
+  "contributors": [
+    {
+      "name": "Brennon Schow",
+      "email": "brennonschow+github@gmail.com",
+      "url": "https://brennongs.dev"
+    },
+    {
+      "name": "Andrew Garvin",
+      "email": "me@andrewgarv.in",
+      "url": "https://andrewgarv.in"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beetlabs/pompom/issues"
+  },
+  "homepage": "https://github.com/beetlabs/pompom#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "typescript": "^3.9.7"
+  }
+}
