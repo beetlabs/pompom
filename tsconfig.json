@@ -15,7 +15,7 @@
       "suppressImplicitAnyIndexErrors": true,
       "target": "es2016",
       "allowJs": true,
-      "outDir": "build",
+      "outDir": "dist",
       "baseUrl": ".",
       "skipLibCheck": true
   },
